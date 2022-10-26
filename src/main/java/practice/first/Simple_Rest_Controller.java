@@ -1,4 +1,5 @@
 package practice.first;
+
 import java.util.Arrays;
 import java.util.*;
 
@@ -9,15 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Simple_Rest_Controller {
-	
-	@GetMapping("/employe")
-	public List<Employe> retrieveEmployeDetails()
-	{
-		
+
+	@GetMapping("/employee")
+	public List<Employe> retrieveEmployeDetails() {
+
 		return Arrays.asList(
-				new Employe(1,"preetham","TCS"),
-				new Employe(2,"Krunal","Wipro"),
-				new Employe(1,"Raj","Dell")
-				);
+				new Employe(1, "preetham", "TCS"),
+				new Employe(2, "Krunal", "Wipro"),
+				new Employe(1, "Raj", "Dell"));
 	}
 }
