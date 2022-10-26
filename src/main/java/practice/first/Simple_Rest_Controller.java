@@ -17,6 +17,10 @@ public class Simple_Rest_Controller {
 		return Arrays.asList(
 				new Employe(1, "preetham", "TCS"),
 				new Employe(2, "Krunal", "Wipro"),
-				new Employe(1, "Raj", "Dell"));
+				new Employe(3, "Raj", "Dell"),
+				new Employe(4, "Keshav", "Amazon"),
+				new Employe(5, "Aish", "Walmart"),
+				new Employe(6, "Gowtham", "vmware"));
+
 	}
 }
